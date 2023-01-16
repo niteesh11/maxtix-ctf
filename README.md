@@ -13,27 +13,50 @@ flags that are stored in the Neo user's directory ('flag1.txt' and 'flag2.txt').
 
 
 Penetration Methodology:
+
 Network Scanning
-  ● Nmap
-  ● Netdiscover
+
+	  ● Nmap
+  
+	  ● Netdiscover
+  
 Enumeration
-  ● Dirb
+
+	● Dirb
+  
 Bruteforce
-  ● Burp suite
+
+ 	 ● Burp suite
+  
 Exploitation
-  ● Msfvenom
-  ● Msfconsole
+
+ 	 ● Msfvenom
+  
+  	● Msfconsole
+  
 Privilege Escalation
-  ● ssh
-  ● python hijacking
+
+	  ● ssh
+  
+	  ● python hijacking
   
   
-  The Steps:
-The summary of the steps required in solving this CTF are given below:
-    1. Get the target machine IP address by running Netdiscover.
-    2. Scan open ports by using the Nmap scanner.
-    3. Enumerate HTTP service with Dirb.
-    4. Brute-force on the admin page with burp.
-    5. Exploit file upload vulnerability.
-    6. Gain access to ssh.
-    7. Escalation privilege to get root access.
+  
+The Steps:
+
+	The summary of the steps required in solving this CTF are given below:
+
+
+1. Get the target machine IP address by running Netdiscover.
+
+2. Scan open ports by using the Nmap scanner.
+
+3. Enumerate HTTP service with Dirb.
+
+4. Brute-force on the admin page with burp.
+
+5. Exploit file upload vulnerability.
+
+6. Gain access to ssh.
+
+7. Escalation privilege to get root access.
