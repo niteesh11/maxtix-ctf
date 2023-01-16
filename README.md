@@ -8,8 +8,9 @@ import using virtualbox
 
 
 Goal:
-The goal is to exploit a file upload vulnerability and escalate privileges in order to find two
-flags that are stored in the Neo user's directory ('flag1.txt' and 'flag2.txt').
+
+	The goal is to exploit a file upload vulnerability and escalate privileges in order to find two
+	flags that are stored in the Neo user's directory ('flag1.txt' and 'flag2.txt').
 
 
 Penetration Methodology:
